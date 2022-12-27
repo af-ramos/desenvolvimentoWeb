@@ -1,0 +1,56 @@
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+
+@media screen and (max-width: 768px)
+{
+  .celular-h1
+  {
+    font-size: 37px;
+  }
+  .celular-email
+  {
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 23px;
+  }
+  .celular-cadastre
+  {
+    font-size: 15px;
+  }
+  .celular-disponivel
+  {
+    font-size: 25px;
+  }
+  .celular-menu-rodape
+  {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 769px)
+{
+  .celular-h1
+  {
+    font-size: 57px;
+  }
+  .celular-email
+  {
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    font-size: 23px;
+  }
+  .celular-cadastre
+  {
+    font-size: 25px;
+  }
+  .celular-disponivel
+  {
+    font-size: 30px;
+  }
+  .celular-menu-rodape
+  {
+    font-size: 16px;
+  }
+}
