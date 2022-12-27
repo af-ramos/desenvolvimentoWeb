@@ -1,0 +1,226 @@
+body
+{
+    background-image: url(imagens/bg.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container
+{
+    width: 100%;
+    min-width: 950px;
+    max-width: 1180px;
+    margin: 0px auto;
+    background-image: url(imagens/bg-container.png);
+    background-position: top center;
+    background-repeat: repeat-y;
+}
+
+/* CABEÇALHO */
+
+#container #topo
+{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    min-height: 250px;
+}
+
+/* LOGO */
+
+#container #topo .logo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(imagens/topo-imagem-principal.png);
+    width: 800px;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 20px;
+}
+
+/* LOGO */
+
+/* MENU */
+
+#container #topo .menu
+{
+   position: absolute;
+   background-image: url(imagens/topo-imagem-lateral.png);
+   height: 250px;
+   width: 450px;
+   top: 0px;
+   right: 0px;
+}
+
+#container #topo .reserva
+{
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+
+    padding: 5px 0px 5px 0px;
+    width: 385px;
+    margin-left: 45px;
+    margin-top: 20px;
+    
+    font-size: 14px;
+    color: #928d63;
+}
+
+#container #topo .reserva .botao
+{
+    background-color: #a29750;
+    border: none;
+    padding: 6px;
+    color: #f9efaa;
+    margin-left: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#container #topo ul
+{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+#container #topo ul li
+{
+    padding: 8px;
+}
+
+#container #topo ul li a
+{
+    color: #916a35;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+#container #topo ul li a:hover
+{
+    background-color: #fdf6be;
+}
+
+#container #topo .depoimento
+{
+    position: absolute;
+    top: 75px;
+    right: 10px;
+}
+
+/* MENU */
+
+/* CABEÇALHO */
+
+/* ÁREA PRINCIPAL */
+
+#container #area-principal
+{
+    float: left;
+    width: 50%;
+    background-image: url(imagens/bg-area-principal.png);
+    background-color: #efeacc;
+    background-repeat: repeat-x;
+    height: 100%;
+}
+
+#container #area-principal .titulo-principal
+{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: #7d7648;
+    font-size: 20px;
+}
+
+#container #area-principal .texto-principal
+{
+    padding-left: 20px;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+/* ÁREA PRINCIPAL */
+
+/* ÁREA LATERAL */
+
+#container #area-lateral
+{
+    position: relative;
+    float: right;
+    width: 50%;
+    background-image: url(imagens/bg-area-lateral.png);
+    background-color: #dfd9b7;
+    background-repeat: repeat-x;
+}
+
+#container #area-lateral .postagens
+{   
+    padding-left: 20px;
+}
+
+#container #area-lateral .postagens.primeiro
+{   
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#container #area-lateral hr
+{
+    border: 1px solid #f3efcb;
+    width: 93%;
+    clear: both;
+}
+
+#container #area-lateral a
+{
+    text-decoration: none;
+}
+
+#container #area-lateral .postagens .imagem-lateral
+{
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+#container #area-lateral a .titulo-lateral
+{
+    text-decoration: none;
+    float: left;
+    color: #615b2d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#container #area-lateral .postagens .texto-lateral
+{
+    padding: 30px 10px 0px 0px;
+    text-align: justify;
+    color: black;
+}
+
+/* ÁREA LATERAL */
+
+/* RODAPÉ */
+
+#rodape
+{
+    clear: both;
+    background-image: url(imagens/bg-rodape.png);
+    background-repeat: repeat-x;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #857651;
+}
+
+/* RODAPÉ */
