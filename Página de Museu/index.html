@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title> Museu Nacional </title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+        <!--[if lt IE 9]>
+	    <script src="javascript/html5shiv.js"> </script>
+        <![endif]--> 
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <!-- CABEÇALHO -->
+
+            <header>
+                <div class="logo">
+                    <a href="">Museu<span class="logo-nacional">Nacional</span></a>
+                </div>
+                <nav>
+                    <div class="menu">
+                        <ul>
+                            <li> <a href=""> Home </a> </li>
+                            <li> <a href=""> Exposicoes </a> </li>
+                            <li> <a href=""> Pesquisa </a> </li>
+                            <li> <a href=""> Acervo </a> </li>
+                            <li> <a href=""> Videos </a> </li>
+                            <li> <a href=""> Fotos </a> </li>
+                            <li> <a href=""> Contato </a> </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- CABEÇALHO -->
+
+            <div class="clear"></div>
+
+            <!-- CONTEÚDO -->
+
+            <div id="conteudo">
+
+                <section class="imagem-museu">
+                    <img src="imagens/museu.png">
+                </section>
+
+                <section class="postagens">
+
+                    <article class="video">
+                        <div class="titulo"> Vídeo: Conheça o Museu </div>
+                        <iframe class="player-video" width="320" height="180" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article class="mapa">
+                        <div class="titulo"> Mapa: Encontre o Museu </div>
+                        <iframe class="link-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477" width="320" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </article>
+
+                    <article class="exposicoes">
+                        <div class="titulo"> Exposições </div>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="">Plantas do Brasil Central</a></li>
+                            <li><a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="">Arte com Dinossauros - Paleoarte</a></li>
+                            <li><a href=""><strong>Veja Todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article class="historia">
+                        <div class="titulo">200 anos de história</div>
+                        <div class="texto-historia">
+                            Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                        </div>
+                        <a href="" class="historia-vermais">Leia Mais</a>
+                    </article>
+
+                </section>
+
+            </div>
+
+            <!-- CONTEÚDO -->
+
+            <!-- BARRA LATERAL -->
+
+            <div id="barra-lateral">
+                <aside class="depoimento">
+                    <img src="imagens/depoimento.png">
+                </aside>
+
+                <aside class="visita">
+                    <div class="titulo">Faça uma Visita</div>
+                    <label for="data">Data:</label> <input class="data" type="date" name="data" id="data">
+                    <label for="pessoas">Quantidade de Pessoas:</label> <input class="pessoas" type="number" name="pessoas" id="pessoas" min="1" value="1">
+                    <input type="submit" value="Verificar Disponibilidade" class="botao-disponibilidade">
+                </aside>
+
+                <aside class="galeria">
+                    <div class="titulo"> Galeria de Fotos</div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem1.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem2.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem3.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem4.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem5.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="fotos">
+                        <div class="imagem-fundo"><img src="imagens/imagem6.jpg" class="imagem"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                </aside>
+
+            </div>
+
+            <!-- BARRA LATERAL -->
+
+            <div class="clear"></div>
+
+            <!-- RODAPÉ -->
+            
+            <footer>
+                <img src="imagens/fundo-rodape.png">
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Exposições</a></li>
+                        <li><a href="">Pesquisa</a></li>
+                        <li><a href="">Acervo</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="texto">
+                    &copy; Todos os Direitos Reservados - 2019
+                </div>
+            </footer>
+
+            <!-- RODAPÉ -->
+
+        </div>
+
+        <div class="clear"></div>
+
+    </body>
+
+</html>
