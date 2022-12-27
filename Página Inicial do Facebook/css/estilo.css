@@ -1,0 +1,401 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+
+/* CABEÇALHO */
+
+#container-header
+{
+    width: 100%;
+    background-color: #3B5998;
+}
+
+#container-header-simples
+{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header
+{
+    height: 90px;
+    background-color: #3B5998;
+}
+
+header img
+{
+    height: 90px;
+    float: left;
+}
+
+header .login
+{
+    float: right;
+    margin-right: 20px;
+}
+
+header .texto
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+header input.caixa-texto
+{
+    border: none;
+    height: 23px;
+    padding-left: 5px;
+}
+
+header .esquecer
+{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+header .esquecer a
+{
+    color: #80B1CE;
+    text-decoration: none;
+}
+
+header .esquecer a:hover
+{
+    text-decoration: underline;
+}
+
+header input.botao
+{
+    margin-top: 36.5px;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 60px;
+    color: white;
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    clear: both;
+    cursor: pointer;
+}
+
+/* CABEÇALHO */
+
+/* CONTEÚDO (INTRODUÇÃO) */
+
+#container-conteudo
+{
+    width: 100%;
+    background-color: #EDF0F5;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+#container-conteudo-simples
+{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #EDF0F5;
+}
+
+#container-conteudo-simples .texto-introducao
+{
+    width: 49%;
+    float: left;
+}
+
+#container-conteudo-simples .texto-introducao .titulo
+{
+    font-size: 30px;
+    font-weight: bold;
+    width: 75%;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#container-conteudo-simples .texto-introducao .topicos
+{
+    margin-top: 20px;
+}
+
+#container-conteudo-simples .texto-introducao .topicos .texto
+{
+    color: #66666A;
+    font-size: 20px;
+
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+#container-conteudo-simples .texto-introducao .topicos .texto .texto-negrito
+{
+    color: #333333;
+    font-weight: bold;
+}
+
+/* CONTEÚDO (INTRODUÇÃO) */
+
+/* CONTEÚDO (CADASTRO) */
+
+#container-conteudo-simples .cadastro
+{
+    width: 49%;
+    float: right;
+}
+
+#container-conteudo-simples .cadastro .titulo
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+}
+
+#container-conteudo-simples .cadastro .subtitulo
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #333333;
+}
+
+#container-conteudo-simples .cadastro .input-nomes
+{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    padding-left: 10px;
+    width: 46.3%;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+#container-conteudo-simples .cadastro .input-email
+{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    width: 96%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#container-conteudo-simples .cadastro .input-senha
+{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    width: 96%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#container-conteudo-simples .cadastro .titulo-nascimento
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #302135;
+}
+
+#container-conteudo-simples .cadastro .inputs-nascimento
+{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #BDC7D8;
+}
+
+#container-conteudo-simples .cadastro .textinho-nascimento a
+{
+    color: #4C74C4;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#container-conteudo-simples .cadastro .textinho-nascimento a:hover
+{
+    color: #4C74C4;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#container-conteudo-simples .cadastro .genero
+{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #1D2129;
+}
+
+#container-conteudo-simples .cadastro .genero-input-female
+{
+    margin-left: 10px;
+}
+
+#container-conteudo-simples .cadastro .genero-input-male
+{
+    margin-left: 20px;
+}
+
+#container-conteudo-simples .cadastro .politicas
+{
+    color: #988286;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 420px;
+}
+
+#container-conteudo-simples .cadastro .politicas a
+{
+    text-decoration: none;
+    color: #586BBE;
+}
+
+#container-conteudo-simples .cadastro .politicas a:hover
+{
+    text-decoration: underline;
+}
+
+#container-conteudo-simples .cadastro .botao-cadastro
+{
+    background-image: linear-gradient(#5D974A, #598A45);
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: bold;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container-conteudo-simples .cadastro .botao-cadastro:hover
+{
+    background-image: linear-gradient(#94D27A, #598A45);
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: bold;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container-conteudo-simples .cadastro .separacao
+{
+    border: 1px solid #DDDFE2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container-conteudo-simples .cadastro .criar-pagina
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #876A66;
+}
+
+#container-conteudo-simples .cadastro .criar-pagina a
+{
+    color: #3658A1;
+    text-decoration: none;
+}
+
+#container-conteudo-simples .cadastro .criar-pagina a:hover
+{
+    text-decoration: underline;
+}
+
+/* CONTEÚDO (CADASTRO) */
+
+/* RODAPÉ */
+
+#container-rodapé
+{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#container-rodapé-simples
+{
+    padding-top: 15px;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#container-rodapé-simples .idiomas
+{
+    color: #737377;
+    font-size: 14px;
+}
+
+#container-rodapé-simples .idiomas a
+{
+    color: #365899;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#container-rodapé-simples .idiomas a:hover
+{
+    text-decoration: underline;
+}
+
+#container-rodapé-simples .idiomas .mais
+{
+    font-weight: bold;
+    margin-left: 10px;
+    color: #646B7A;
+    font-size: 18px;
+    width: 35px;
+    cursor: pointer;
+}
+
+#container-rodapé-simples .separacao
+{
+    border: 1px solid #DDDFE2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container-rodapé-simples .informacoes a
+{
+    display: inline-block;
+    color: #365899;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#container-rodapé-simples .informacoes a:hover
+{
+    text-decoration: underline;
+}
+
+#container-rodapé-simples .direitos-autorais
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #848488;
+}
+
+/* RODAPÉ */
+
+/* EXTRAS */
+
+.clear
+{
+    clear: both;
+}
+
+/* EXTRAS */
