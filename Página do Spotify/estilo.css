@@ -1,0 +1,165 @@
+/* CORPO */
+html, body 
+{
+    width: auto !important;
+    overflow-x: hidden !important;
+    height: 100%;
+}
+#home
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: "Liberation Sans"
+}
+/* FIM DO CORPO */
+
+/* CABEÇALHO */
+.transparencia
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+ul.cabecalho>li
+{
+    font-size: 18px;
+}
+/* FIM DO CABEÇALHO */
+
+/* SLIDER RESPONSIVO */
+.cor-botao
+{
+    background-color: #7C25F8;
+}
+
+.cor-botao:hover
+{
+    background-color: #6207E3;
+}
+
+@media screen and (max-width: 500px)
+{
+    .titulo-slide
+    {
+        font-size: 45px;
+    }
+    .espacamento-celular
+    {
+        margin-top: 10px;
+    }
+    .celular
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 501px)
+{
+    .titulo-slide
+    {
+        font-size: 79px;
+    }
+}
+/* FIM DO SLIDER RESPONSIVO */
+
+/* CONTEÚDO 1 */
+.conteudo-1>h1
+{
+    font-size: 44px;
+    font-weight: bold;
+    color: #7C25F8;
+}
+
+.conteudo-1>h2
+{
+    color: #7C25F8;
+    font-weight: bold;
+}
+
+.conteudo-1>p
+{
+    text-align: justify;
+}
+/* FIM DO CONTEÚDO 1 */
+
+/* CONTEÚDO 2 */
+.rotacionar
+{
+    transform: rotate(30deg); 
+}
+
+.conteudo-2>h1
+{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo-2>h2
+{
+    color: #9BF0E1;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.conteudo-2>p
+{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 501px)
+{
+    .conteudo-2>p
+    {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .conteudo-2>p
+    {
+        width: 100%;
+    }
+}
+/* FIM DO CONTEÚDO 2*/
+
+/* RODAPÉ */
+footer
+{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+footer .rodape-coluna h4
+{
+    font-size: 15px;
+    color: #8C8F91;
+}
+
+footer .rodape-coluna li a
+{
+    color: white;
+    font-size: 14px;
+}
+
+footer .icones ul
+{
+    list-style: none;
+}
+
+footer ul li
+{
+    float: right;
+    margin: 0 5px;
+}
+/* FIM DO RODAPÉ */
