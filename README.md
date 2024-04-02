@@ -1,4 +1,4 @@
-# DesenvolvimentoWeb
+# Desenvolvimento Web
 
 Sites desenvolvidos durante o curso "Desenvolvimento Web Completo - 20 cursos + 20 projetos" da plataforma Udemy, utilizando HTML, CSS, JavaScript, PHP e MySQL.
 
